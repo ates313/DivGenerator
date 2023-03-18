@@ -1,0 +1,23 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.write{
+    width: 100%
+}
+
+.container{
+    width: 650px;
+    height: 650px;
+    background-color: red;
+    float: right;
+    padding: 7px;
+}
+
+.container2{
+    width: 750px;
+    height: 750px;
+    background-color: brown;
+    float: left;
+}
