@@ -3,16 +3,23 @@ body{
     margin: 0px;
 }
 
-.write{
-    width: 100%
-}
-
 .container{
     width: 650px;
     height: 650px;
     background-color: red;
     float: right;
     padding: 7px;
+    position: relative;
+}   
+
+.write{
+    width: 100%;
+    height: 50px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
 }
 
 .container2{
@@ -20,4 +27,11 @@ body{
     height: 750px;
     background-color: brown;
     float: left;
+}
+
+.form{
+    width: 100%;
+    border-bottom: 2px solid black;
+    position: absolute;
+    top: 60px;
 }
