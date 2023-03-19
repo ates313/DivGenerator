@@ -16,8 +16,6 @@
         <div class="write">
             <p>Admin Panel</p>
         </div>
-
-        <div class="form">
             <input type="number" name="" id="w" placeholder="Width">
             <select name="" id="w_select">
                 <option value="">-</option>
@@ -26,7 +24,7 @@
                 <option value="em">Em</option>
             </select>
             <input type="number" name="" id="h" placeholder="Height">
-            <select name="" id="w_select">
+            <select name="" id="h_select">
                 <option value="">-</option>
                 <option value="px">Px</option>
                 <option value="rem">Rem</option>
@@ -43,17 +41,35 @@
                 <option value="left">Left</option>
                 <option value="right">Right</option>
             </select>
-        </div>
+            <br>
+            <br>
+            <input type="text" name="" id="textI" placeholder="Text">
+            <select name="" id="text_s">
+                <option value="">FontSize</option>
+                <option value="large">Large</option>
+                <option value="medium">Medium</option>
+                <option value="larger">Larger</option>
+                <option value="small">Small</option>
+            </select>
+            <br>
+            <label for="t_color">TextColor:</label>
+            <input type="color" id="t_color">
+            <br>
+            <br>
 
+
+            <button onclick="actv()" id="active">ACTIVE</button>
 
     </div>
-
-    <div class="container2">
 
         <div id="object"></div>
-
-    </div>
 
 </body>
 
 </html>
+
+<script src="js/script.js"></script>
+
+
+
+

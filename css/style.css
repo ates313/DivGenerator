@@ -5,9 +5,10 @@ body{
 
 .container{
     width: 650px;
-    height: 650px;
+    height: 730px;
     background-color: red;
     float: right;
+    font-size: l;
     padding: 7px;
     position: relative;
 }   
@@ -22,16 +23,13 @@ body{
     font-size: 25px;
 }
 
-.container2{
-    width: 750px;
-    height: 750px;
-    background-color: brown;
+#active{
+    width: 60%;
+    height: 60px;
+    background-color: rgb(96, 96, 248);
     float: left;
-}
-
-.form{
-    width: 100%;
-    border-bottom: 2px solid black;
     position: absolute;
-    top: 60px;
+    left: 130px;
+    bottom: 0px;
+    font-size: 17px;
 }
