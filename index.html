@@ -16,15 +16,8 @@
         <div class="write">
             <p>Admin Panel</p>
         </div>
-            <input type="number" name="" id="w" placeholder="Width">
-            <select name="" id="w_select">
-                <option value="">-</option>
-                <option value="px">Px</option>
-                <option value="rem">Rem</option>
-                <option value="em">Em</option>
-            </select>
-            <input type="number" name="" id="h" placeholder="Height">
-            <select name="" id="h_select">
+            <input class="i_style" type="number" name="" id="w" placeholder="Width">
+            <select class="s_style" name="" id="w_select">
                 <option value="">-</option>
                 <option value="px">Px</option>
                 <option value="rem">Rem</option>
@@ -32,19 +25,28 @@
             </select>
             <br>
             <br>
-            <label for="bgColor">Background-Color:</label>
-            <input type="color" id="bgColor">
+            <input class="i_style" type="number" name="" id="h" placeholder="Height">
+            <select class="s_style" name="" id="h_select">
+                <option value="">-</option>
+                <option value="px">Px</option>
+                <option value="rem">Rem</option>
+                <option value="em">Em</option>
+            </select>
             <br>
             <br>
-            <select name="" id="float">
+            <label class="textStyle" for="bgColor">Background-Color:</label>
+            <input class="i_c_style" type="color" id="bgColor">
+            <br>
+            <br>
+            <select class="s_style" name="" id="float">
                 <option value="">Float</option>
                 <option value="left">Left</option>
                 <option value="right">Right</option>
             </select>
             <br>
             <br>
-            <input type="text" name="" id="textI" placeholder="Text">
-            <select name="" id="text_s">
+            <input class="i_style" type="text" name="" id="textI" placeholder="Text">
+            <select class="s_style" name="" id="text_s">
                 <option value="">FontSize</option>
                 <option value="large">Large</option>
                 <option value="medium">Medium</option>
@@ -52,13 +54,14 @@
                 <option value="small">Small</option>
             </select>
             <br>
-            <label for="t_color">TextColor:</label>
-            <input type="color" id="t_color">
+            <label class="textStyle" for="t_color">TextColor:</label>
+            <input class="i_c_style" type="color" id="t_color">
             <br>
             <br>
-
-
-            <button onclick="actv()" id="active">ACTIVE</button>
+            <input class="i_style" type="text" name="" id="BorderRadius" placeholder="Border-Radius">
+            <br><br>
+            
+            <button onclick="actv()" id="active">OFF</button>
 
     </div>
 

@@ -6,7 +6,7 @@ body{
 .container{
     width: 650px;
     height: 730px;
-    background-color: red;
+    background-color: rgb(28, 25, 25);
     float: right;
     font-size: l;
     padding: 7px;
@@ -21,15 +21,38 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 25px;
+    margin-bottom: 20px;
+    color: goldenrod;
+    border-bottom: 2px solid goldenrod;
 }
 
 #active{
     width: 60%;
     height: 60px;
-    background-color: rgb(96, 96, 248);
+    background-color: red;
     float: left;
     position: absolute;
     left: 130px;
     bottom: 0px;
     font-size: 17px;
+    transition: 4px solid green;
+}
+
+.i_style{
+    width: 90px;
+    color: black;
+    border-radius: 7px;
+}
+
+.s_style{
+    border-radius: 8px;
+}
+
+.i_c_style{
+    border-radius: 7px;
+}
+
+.textStyle{
+    font-size: 20px;
+    color: goldenrod;
 }
